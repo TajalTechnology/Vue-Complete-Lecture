@@ -42,14 +42,23 @@ Now you can enjoy bootstrap in your vue project
 process: for jquery
 
 1.npm install jquery --save
+
 2.main.js{
+
 	import jQuery from 'jquery';
+
 	window.$ = window.jQuery =jQuery;
+
 	}
+
 Now you can enjoy jquery in your vue project
 
 process: for popper.js
+
 1.main.js{
+
 	import 'popper.js';
+
 	}
+
 Now you can enjoy popper.js in your vue project
